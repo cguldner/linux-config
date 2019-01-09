@@ -1,3 +1,4 @@
+export TERM="xterm-256color"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 plugins=(
@@ -27,5 +28,10 @@ alias zshrc='vim ~/.zshrc'
 alias loadzsh='source ~/.zsh'
 alias bashrc='vim ~/.bashrc'
 alias loadbash='source ~/.bashrc'
+
+alias docker='sudo docker'
+alias docker-compose='sudo docker-compose'
+
+alias ns='netstat -tulpn'
 
 export EDITOR=vim

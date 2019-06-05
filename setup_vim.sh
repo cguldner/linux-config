@@ -17,6 +17,9 @@ git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgut
 # Set up syntastic, a syntax checker - https://github.com/vim-syntastic/syntastic
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
 
+# Set up tagbar, a visual file structure plugin
+git clone https://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
+
 # Download badwolf color scheme - https://github.com/sjl/badwolf
 wget https://bitbucket.org/sjl/badwolf/raw/tip/colors/badwolf.vim
 mkdir --parents ~/.vim/colors

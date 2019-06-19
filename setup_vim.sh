@@ -20,7 +20,19 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle
 # Set up tagbar, a visual file structure plugin
 git clone https://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
 
-# Download badwolf color scheme - https://github.com/sjl/badwolf
-wget https://bitbucket.org/sjl/badwolf/raw/tip/colors/badwolf.vim
-mkdir --parents ~/.vim/colors
-mv badwolf.vim ~/.vim/colors/
+# Download dracula color scheme - https://github.com/dracula/vim
+git clone https://github.com/dracula/vim ~/.vim/bundle/dracula
+
+# Set up vim autotag, a CTAG generator - https://github.com/craigemery/vim-autotag
+git clone https://github.com/craigemery/vim-autotag ~/.vim/bundle/vim-autotag
+
+# Set up fzf, a fuzzy search file finder
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+git clone https://github.com/junegunn/fzf.vim ~/.vim/bundle/fzf
+
+# Set up git fugitive, a vim git wrapper - https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+
+# Set up commentary, a line commenter - https://tpope.io/vim/commentary.git
+git clone https://tpope.io/vim/commentary.git ~/.vim/bundle/commentary

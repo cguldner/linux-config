@@ -12,19 +12,33 @@ plugins=(
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs virtualenv)
 
+# Setup shared history
+# Useful when you have multiple sessions (e.g. tmux)
+SAVEHIST=10000
+HISTSIZE=5000
+HISTFILE="${HOME}/.zsh_history"
+
+setopt share_history  # Share history between all sessions
+setopt extended_history  # Save start and run time in history, use 'fc -l -fD 1'
+setopt notify  # Report background jobs immediately
+
+# Auto cd into directory if the dir name is typed like a command
+unsetopt autocd
+
 alias apt-get='sudo apt-get -y'
 alias apt-up='sudo apt-get update'
 
-alias l='ls -l'
+alias l='ls -lFGa --color'
 alias h='history'
 alias grep='grep --color=auto'
 alias ns='netstat -tulpn'
 
-alias gstat='git status'
+alias gs='git status'
+alias gd='git diff'
 alias gcm='git commit -m'
 alias gcam='git commit -am'
 alias gp='git push'
-alias gitprettylog='git log --pretty=oneline'
+alias gl='git log --oneline'
 
 alias ..='cd ..'
 alias ...='cd ..; cd ..'

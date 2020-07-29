@@ -36,4 +36,7 @@ git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 # Set up commentary, a line commenter - https://tpope.io/vim/commentary.git
 git clone https://tpope.io/vim/commentary.git ~/.vim/bundle/commentary
 
+# Setup indexed search, shows number of matches found - https://github.com/henrik/vim-indexed-search
+git clone https://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/indexed-search
+
 ~/.fzf/install

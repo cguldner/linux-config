@@ -28,7 +28,6 @@ git clone https://github.com/craigemery/vim-autotag ~/.vim/bundle/vim-autotag
 
 # Set up fzf, a fuzzy search file finder
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
 git clone https://github.com/junegunn/fzf.vim ~/.vim/bundle/fzf
 
 # Set up git fugitive, a vim git wrapper - https://github.com/tpope/vim-fugitive.git
@@ -36,3 +35,5 @@ git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 
 # Set up commentary, a line commenter - https://tpope.io/vim/commentary.git
 git clone https://tpope.io/vim/commentary.git ~/.vim/bundle/commentary
+
+~/.fzf/install

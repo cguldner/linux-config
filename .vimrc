@@ -109,6 +109,8 @@ au BufRead,BufNewFile *defconfig,*.mk,*merconfig,*frag set filetype=make
 "au BufRead,BufNewFile *.txt,*.asciidoc,README,TODO,CHANGELOG,NOTES,ABOUT
 set filetype=asciidoc textwidth=80
 
+au FileType gitcommit set tw=72
+
 " File type specific indentation
 autocmd Filetype idl setlocal ts=3 sw=3 expandtab
 autocmd Filetype c setlocal ts=8 sw=8

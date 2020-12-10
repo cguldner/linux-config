@@ -62,7 +62,7 @@ alias zshrc='vim ~/.zshrc'
 alias loadzsh='source ~/.zshrc'
 alias bashrc='vim ~/.bashrc'
 alias loadbash='source ~/.bashrc'
-alias sshrc='vim ~/.sshrc'
+alias sshrc='vim ~/.sshrc/config'
 alias tmuxrc='vim ~/.tmux.conf'
 
 alias docker='sudo docker'

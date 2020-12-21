@@ -49,6 +49,8 @@ alias gl='git log --oneline'
 alias gb='git batch'
 alias gch='git checkout'
 alias gcp='git cherry-pick'
+alias gsui='git submodule update --init'
+alias gsur='git submodule update --remote'
 
 alias ..='cd ..'
 alias ...='cd ../../'

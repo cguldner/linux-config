@@ -51,6 +51,7 @@ alias gch='git checkout'
 alias gcp='git cherry-pick'
 alias gsui='git submodule update --init'
 alias gsur='git submodule update --remote'
+alias del_git_branches='git branch --merged | egrep -v "(^\*|master|staging)" | xargs git branch -d'
 
 alias ..='cd ..'
 alias ...='cd ../../'
